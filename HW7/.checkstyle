@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<fileset-config file-format-version="1.2.0" simple-config="false" sync-formatter="true">
-  <local-check-config name="maven-checkstyle-plugin compile" location="file:/C:/Users/YaChi/eclipse-workspace/MvnQuickStart/config/checks.xml" type="remote" description="maven-checkstyle-plugin configuration compile">
-    <property name="checkstyle.header.file" value="C:\Users\YaChi\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\HW7\com.basistech.m2e.code.quality.checkstyleConfigurator\checkstyle-header-compile.txt"/>
+<fileset-config file-format-version="1.2.0" simple-config="false" sync-formatter="false">
+  <local-check-config name="maven-checkstyle-plugin compile" location="file:/C:/Users/Jiannwey/Desktop/109Code/OOP/HW7/HW7/config/checks.xml" type="remote" description="maven-checkstyle-plugin configuration compile">
+    <property name="checkstyle.header.file" value="C:\Users\Jiannwey\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\HW7\com.basistech.m2e.code.quality.checkstyleConfigurator\checkstyle-header-compile.txt"/>
     <property name="checkstyle.cache.file" value="${project_loc}/target/checkstyle-cachefile"/>
   </local-check-config>
   <fileset name="java-sources-compile" enabled="true" check-config-name="maven-checkstyle-plugin compile" local="true">
